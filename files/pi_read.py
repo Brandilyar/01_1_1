@@ -1,5 +1,5 @@
-name_of_file = input("Введите название файла")
-name_of_file += ".txt"
+
+name_of_file += "pi.txt"
 accur = int(input("Уточните до какого знака вам нужно число пи"))
 
 with open(name_of_file) as file:
