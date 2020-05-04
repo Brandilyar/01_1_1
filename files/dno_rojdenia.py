@@ -9,6 +9,7 @@ for line in lines:
 
 birth =input('Введите ваш день рождения: ')
 if birth in pi_string:
-    print("Вы часть числа трансцидентного числа пи!")
+    index_str = pi_string.find(birth)
+    print("Вы часть числа трансцидентного числа пи! Место вашего дня рождения в числе Pi "+str(index_str))
 else:
-    print("Чиислом ПИ не рождаются")
+    print("Числом ПИ не рождаются")
